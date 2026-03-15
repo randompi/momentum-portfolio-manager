@@ -1,0 +1,56 @@
+{
+  "accounts": [
+    {
+      "accountId": "Z12345678",
+      "accountName": "Individual - TOD",
+      "positions": [
+        {
+          "description": "APPLE INC",
+          "symbol": "AAPL",
+          "type": "Stock",
+          "quantity": 10.0,
+          "lastPrice": 150.25,
+          "acquisitionDate": "2023-01-15",
+          "costBasisPerShare": 130.00,
+          "currentValue": 1502.50
+        },
+        {
+          "description": "ISHARES CORE S&P 500 ETF",
+          "symbol": "IVV",
+          "type": "ETF",
+          "quantity": 4.0,
+          "lastPrice": 510.00,
+          "acquisitionDate": "2021-09-30",
+          "costBasisPerShare": 430.00,
+          "currentValue": 2040.00
+        }
+      ]
+    },
+    {
+      "accountId": "Z98765432",
+      "accountName": "Roth IRA",
+      "positions": [
+        {
+          "description": "FIDELITY 500 INDEX FUND",
+          "symbol": "FXAIX",
+          "type": "Mutual Fund",
+          "quantity": 25.0,
+          "lastPrice": 140.00,
+          "acquisitionDate": "2020-04-10",
+          "costBasisPerShare": 100.00,
+          "currentValue": 3500.00
+        },
+        {
+          "description": "VANGUARD TOTAL BOND MARKET ETF",
+          "symbol": "BND",
+          "type": "ETF",
+          "quantity": 30.0,
+          "lastPrice": 72.50,
+          "acquisitionDate": "2020-04-10",
+          "costBasisPerShare": 85.00,
+          "currentValue": 2175.00
+        }
+      ]
+    }
+  ]
+}

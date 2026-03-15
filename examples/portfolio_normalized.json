@@ -1,0 +1,41 @@
+{
+  "account_id": "123456789",
+  "positions": [
+    {
+      "symbol": "AAPL",
+      "description": "Apple Inc",
+      "asset_type": "Stock",
+      "quantity": 10.0,
+      "cost_basis_per_share": 130.00,
+      "current_price": 150.25,
+      "acquisition_date": "2023-01-15"
+    },
+    {
+      "symbol": "MSFT",
+      "description": "Microsoft Corporation",
+      "asset_type": "Stock",
+      "quantity": 5.0,
+      "cost_basis_per_share": 280.00,
+      "current_price": 310.50,
+      "acquisition_date": "2022-11-08"
+    },
+    {
+      "symbol": "FXAIX",
+      "description": "Fidelity 500 Index Fund",
+      "asset_type": "Mutual Fund",
+      "quantity": 25.0,
+      "cost_basis_per_share": 120.00,
+      "current_price": 140.00,
+      "acquisition_date": "2021-06-20"
+    },
+    {
+      "symbol": "BND",
+      "description": "Vanguard Total Bond Market ETF",
+      "asset_type": "ETF",
+      "quantity": 50.0,
+      "cost_basis_per_share": 74.00,
+      "current_price": 72.50,
+      "acquisition_date": "2020-03-15"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "PortfolioResponse": {
+    "AccountPortfolio": [
+      {
+        "accountId": "ETRD-98765",
+        "accountDesc": "Individual Brokerage",
+        "Position": [
+          {
+            "symbolDescription": "Apple Inc",
+            "symbol": "AAPL",
+            "typeDescription": "EQ",
+            "quantity": 10,
+            "currentPrice": 150.25,
+            "dateAcquired": "01/15/2023",
+            "costPerShare": 130.00,
+            "marketValue": 1502.50
+          },
+          {
+            "symbolDescription": "Microsoft Corporation",
+            "symbol": "MSFT",
+            "typeDescription": "EQ",
+            "quantity": 5,
+            "currentPrice": 310.50,
+            "dateAcquired": "11/08/2022",
+            "costPerShare": 280.00,
+            "marketValue": 1552.50
+          },
+          {
+            "symbolDescription": "Vanguard Total Stock Market ETF",
+            "symbol": "VTI",
+            "typeDescription": "ETF",
+            "quantity": 20,
+            "currentPrice": 225.00,
+            "dateAcquired": "06/01/2021",
+            "costPerShare": 198.00,
+            "marketValue": 4500.00
+          }
+        ]
+      }
+    ]
+  }
+}

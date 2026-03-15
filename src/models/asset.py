@@ -7,8 +7,11 @@ class Asset:
     ticker_symbol: str
     positions: list[Position]
 
-    def __init__(self):
-        self.positions = []
+    def __init__(self, ticker_symbol: str = "", display_name: str = "", asset_type: str = ""):
+        self.ticker_symbol = ticker_symbol
+        self.display_name = display_name
+        self.asset_type = asset_type
+        self.positions: list[Position] = []
 
     def add_position(self, position: Position):
         self.positions.append(position)
